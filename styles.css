@@ -1,0 +1,64 @@
+#frontpage{
+    background-color: teal;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 10em;
+    background-color: white;
+    overflow:auto;
+}
+
+nav ul{
+    float: right;
+    padding-right: 2em;
+}
+
+nav li{
+    /*gjør at listen legges inn i en linje i boksen*/
+    list-style-type: none;
+    display: inline-block;
+    padding: 2em;
+}
+
+nav li a{
+    /* fjerner underlinjer fra menyen */
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0.5em;  
+    color: #1D4915;
+}
+
+#logo{
+    width: 10px;
+    height: 10px;
+}
+
+img{
+    width: 8em;
+    height: 5em;
+    padding: 2em 2em 2em 7em;
+    float: left;
+}
+
+#logonavn{
+    font-size: 2em;
+    padding: 10px;
+    float: left;
+    color: #1D4915;
+}
+
+footer{
+    width: 100%;
+    height: 10em;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
